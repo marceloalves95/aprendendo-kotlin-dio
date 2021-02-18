@@ -8,6 +8,7 @@ package objetos
 
 class Pessoa {
 
+    //Declaração de Variáveis
     var nome:String = "Marcelo Alves"
     var cpf:String = "123.123.123-12"
 
@@ -16,8 +17,10 @@ class Pessoa {
 
 fun main(){
 
+    //Essa variável armazena o objeto Pessoa
     val marcelo = Pessoa()
 
+    //Aqui é chamado retorno do objeto Pessoa
     println(marcelo.nome)
     println(marcelo.cpf)
 
