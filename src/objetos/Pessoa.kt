@@ -6,10 +6,9 @@ package objetos
  *@author Rubio Alves
 */
 
-open class Pessoa(
-    open val nome: String,
-    open val CPF: String
-
+abstract class Pessoa(
+    val nome: String,
+    val CPF: String
 
 ) {
 
