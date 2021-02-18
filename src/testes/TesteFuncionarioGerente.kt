@@ -1,9 +1,6 @@
 package testes
 
-import objetos.Analista
-import objetos.Funcionario
 import objetos.Gerente
-
 
 /*
  *@created 18/02/2021 - 12:45
