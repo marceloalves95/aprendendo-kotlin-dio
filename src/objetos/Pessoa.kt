@@ -8,5 +8,8 @@ package objetos
 
 class Pessoa {
 
+    var nome:String = "Marcelo Alves"
+    var cpf:String = "123.123.123-12"
+
 
 }
