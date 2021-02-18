@@ -16,6 +16,10 @@ class Pessoa {
 
 fun main(){
 
+    val marcelo = Pessoa()
+
+    println(marcelo.nome)
+    println(marcelo.cpf)
 
 
 }
