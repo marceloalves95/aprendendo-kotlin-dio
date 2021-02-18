@@ -10,8 +10,10 @@ import objetos.Gerente
 
 fun main() {
 
-    val marcelo = Gerente(nome = "Matheus", CPF = "987.654.321-98", 5000.0)
+    val marcelo = Gerente(nome = "Matheus", CPF = "987.654.321-98", 5000.0, "senha123")
     imprimirRelatorio(marcelo)
+
+    TesteAutenticacao().autentica(marcelo)
 
 
 }
